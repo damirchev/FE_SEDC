@@ -1,0 +1,32 @@
+.one {
+    background: red;
+}
+
+.two {
+    background: white;
+}
+
+.three {
+    background: #96e698;
+    /* #9ad9ea - color assigned to three */
+}
+
+.five {
+    background: #96e698;
+}
+
+.seven {
+    background: #9ad9ea;
+}
+
+.oneBlue {
+    background: blue;
+}
+
+.oneGreen {
+    background: green;
+}
+
+.oneYellow {
+    background: yellow;
+}
