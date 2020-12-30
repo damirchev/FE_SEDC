@@ -1,0 +1,232 @@
+/* '#Style'  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sizing property allows to solve the problem where padding and border are not included in the width and height of the element */
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navigation */
+
+#logo img {
+    width: 80px;
+}
+
+nav {
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+#container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#menu {
+    
+    float: right;
+    /* padding-top: 35px; */
+    line-height: 100px;
+}
+
+#logo {
+    float:left;
+    padding: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    /* color: black; */
+    /* word-spacing: 2px; */
+    margin: 0 20px;
+    font-size: 1.2em;
+}
+
+#menu a:hover {
+    color: #2d6092;
+}
+
+#hamburger {
+    display: none;
+}
+
+header {
+    background-color:#737e8a;
+    text-align: center;
+    padding: 160px 0;
+    color: white;
+}
+
+.header_container h1 {
+    font-size: 3em;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.header_container h4 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.header_container button {
+    border: none;
+    background-color: #444f5c;
+    font-size: 20px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+
+/* Cards */
+
+.card {
+    background-color: white;
+    text-align: center;
+    padding: 60px 30px;
+    margin: 0 20px;
+}
+
+.card img {
+    width: 80px;
+}
+
+.tech {
+    float: left;
+    width: 28%;
+    margin-bottom: 100px;
+}
+
+.prod {
+    float: left;
+    width: 28%;
+    margin-bottom: 100px;
+}
+
+.cli {
+    float: left;
+    width: 28%;
+    margin-bottom: 100px;
+}
+
+.container { 
+    /* width: 1500px; */
+    margin: 0 10% 0 10%;
+    position: relative;
+    bottom: 100px;
+}
+
+/* Responsive design */
+
+/* @media only print and (max-width: 600px), (orientation: landscape) {
+    .card {
+        margin: 10px auto;
+    }
+
+    header {
+        padding: 100px 0;
+    }
+} */
+
+@media screen and (max-width: 620px) {
+    #menu {
+        display: none;
+    }
+    #hamburger {
+        display: initial;
+        float: right;
+        color: black;
+        font-size: 2em;
+        padding-right: 20px;
+        padding-top: 35px;
+    }
+
+    .header_container h1 {
+        font-size: 2.5em;
+    }
+
+    .header_container button {
+        border: none;
+        background-color: blue;
+        font-size: 12px;
+        padding: 15px 50px;
+        border-radius: 20px;
+    }
+    .tech {
+        float: left;
+        width: 30%;
+    }
+    .prod {
+        float: left;
+        width: 30%;
+    }
+    .cli {
+        float: left;
+        width: 30%;
+    }
+
+    .card {
+        margin: 20px auto;
+    }
+
+    .container {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .tech {
+        float: none;
+        width: 50%;
+    }
+    .prod {
+        float: none;
+        width: 50%;
+    }
+    .cli {
+        float: none;
+        width: 50%;
+    }
+
+    .card {
+        margin: 20px auto;
+    }
+
+    .container {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width:781px) {
+    .tech {
+        float: none;
+        width: 70%;
+    }
+    .prod {
+        float: none;
+        width: 70%;
+    }
+    .cli {
+        float: none;
+        width: 70%;
+    }
+
+    .card {
+        margin: 20px auto;
+    }
+}
+
+/* present hamburger menu */
+
+/* define the style for print */ 
+
+
+
